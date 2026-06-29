@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-# Calculate dates
+# Calculate dates for the past week
 today = datetime.now()
 week_ago = today - timedelta(days=7)
 
